@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Footer</title>
+</head>
+
+<body>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <p>&copy; 2024 Mohammad Shaheen. All rights reserved.</p>
+        <p>Last updated: <span id="last-updated">August 5, 2024</span></p>
+      </div>
+      <div class="footer-contact">
+        <p>Contact us: <a href="mailto:mohammad@gmail.com">mohammad@gmail.com</a></p>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=100025346296336" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |
+        <a href="https://www.instagram.com/mohammad_.shaheen/" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set the last updated date dynamically
+    document.getElementById('last-updated').innerText = new Date(document.lastModified).toLocaleDateString();
+  </script>
+</body>
+
+</html>
